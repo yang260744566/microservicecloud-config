@@ -25,16 +25,5 @@ eureka:
     service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
 
-service
-  port:8203
-spring:
-  profiles: test1
-  application:
-     name: microservicecloud-config-client
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-test.com:7001/eureka/
-
 
 
