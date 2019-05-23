@@ -9,7 +9,7 @@ spring:
     name: microservicecloud-config-atguigu-dev
 ---
 spring:
-  profiles: dev #测试
+  profiles: test #测试
   application:
     name: microservicecloud-config-atguigu-test
 # UTF-8格式保存
