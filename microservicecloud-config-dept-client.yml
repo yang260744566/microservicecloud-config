@@ -3,7 +3,7 @@
     active: 
     - dev
 ---
-service
+server
   port: 8001
 spring:
   profiles: dev 
@@ -40,7 +40,7 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
-service
+server
   port: 8001
 spring:
   profiles: test 
